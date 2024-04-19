@@ -19,3 +19,5 @@ st.title("MG API Assistant PoC")
 openaiKey = st.secrets["OPENAI_API_KEY"]
 
 id_assistente = st.secrets["ASSISTANT_ID"]
+
+inference(id_assistente)
