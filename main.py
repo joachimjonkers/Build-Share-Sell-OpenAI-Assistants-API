@@ -9,17 +9,12 @@ from inference_assistant import inference
 from utils import create_assistant_from_config_file, upload_to_openai, export_assistant
 
 st.set_page_config(
-    page_title="Build, Share and Sell OpenAI Assistants API",
+    page_title="MG API Assistant PoC",
     page_icon="🤖",
-    layout="wide",
-    menu_items={
-        'Get Help': 'mailto:servizi@intelligenzaartificialeitalia.net',
-        'Report a bug': "https://github.com/IntelligenzaArtificiale/Build-Share-Sell-OpenAI-Assistants-API/issues",
-        'About': "# This is a simple web app to build, share and sell OpenAI Assistants API\n\n"
-    }
+    layout="wide"
 )
 
-st.title("Build🚧, Share🤗 and Sell💸 OpenAI Assistants🤖")
+st.title("MG API Assistant PoC")
 
 
 utilizzo = st.selectbox("🤖 Hi, what do you want to do?", ("Create or Import an Assistant", "Use an Assistant"))
