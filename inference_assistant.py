@@ -9,7 +9,7 @@ from exportChat import export_chat
 def inference(id_assistente):
     if "msg_bot" not in st.session_state:
         st.session_state.msg_bot = []
-        st.session_state.msg_bot.append("Hi🤗, I'm your assistant. How can I help you?")
+        st.session_state.msg_bot.append("Hi🤗, I'm the MG API AI assistant. How can I help you?")
         st.session_state.msg = []
         
         try :
